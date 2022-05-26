@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.box-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 260px 700px;
+    gap: 1rem;
+}
+
+.main-container,
+.column-container{
+    grid-column: 2;
+}
+
+.grid-container ul{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.column-container li{
+    list-style: none;
+}
